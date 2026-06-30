@@ -2,7 +2,7 @@
 
 An advanced multi-agent AI team that collaborates to produce complete hackathon solutions — from concepts to production architecture, user interface journeys, database schemas, and pitch decks.
 
-```mermaid
+mermaid
 graph TD
     User([Problem Statement]) --> RAG[RAG Retrieval: text-embedding-004 + Qdrant]
     User --> Search[Web Search: Tavily API]
@@ -29,7 +29,6 @@ graph TD
     FinalBackend --> Pitch[5. Pitch Agent]
     Pitch --> Judge[6. Judge Agent]
     Judge --> Report([Complete Hackathon Report])
-```
 
 ---
 
